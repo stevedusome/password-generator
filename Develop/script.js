@@ -10,7 +10,7 @@ var numberChars = "1234567890"
 var specialChars = `#$%&'()*+,-./:;<=>?`
 
 function getRandomInt(max) {
-  return Math.floor(Math.random() * max + 1);
+  return Math.floor(Math.random() * max);
 }
 
 
